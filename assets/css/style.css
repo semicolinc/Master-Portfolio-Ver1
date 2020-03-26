@@ -64,9 +64,6 @@ body{
 }
 
 /* Scrollbar */
-html{
-    /* overflow-y: hidden; */
-}
 html {
     --thumbBG: rgb(106, 110, 112);
   }
