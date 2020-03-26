@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "assets/css/style.css">
+    <link rel = "stylesheet" href = "assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Rajdhani&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src = "assets/javascript/app.js"></script>
+    <title>Portfolio - Colin Chang</title>
+</head>
+
+<body>
+    <!-- General Format: flex column-like -->
+    <!-- Tool Bar: flex row-like (100% height) -->
+    <!-- Body Containers: flex column-like -->
+        <!-- Contains multiple mega-containers each with (approx 50%) width. Overflows. flex row-like-->
+            <!-- Introduction -->
+            <!-- Resume -->
+            <!-- Web Portfolio -->
+            <!-- About -->
+            <!-- Contact (Input with Firebase installed) -->
+
+        <!-- Tool Bar -->
+        <div id = "tool-container" class = "row-container">
+            <img src = "assets/images/Personal-1.jpg" id = "personal-1">
+            <span id = "intro-toolbar" class = "column-container">
+                <span>Introduction</span>
+            </span>
+            <hr>
+            <span id = "resume-toolbar" class = "column-container">
+                <span>Resume</span>
+            </span>
+            <hr>
+            <span id = "portfolio-toolbar" class = "column-container">
+                <span>Web Portfolio</span>
+            </span>
+            <hr>
+            <span id = "about-toolbar" class = "column-container">
+                <span>About</span>
+            </span>
+            <!-- <hr>
+            <span id = "contact-toolbar" class = "column-container">
+                <span>Contact Me</span>
+            </span> -->
+        </div>
+
+        <!-- Body Containers -->
+        <div id = "vbody-container"> <!--This is the view container. Below contains the overflowing container-->
+            <div id = "tbody-container">
+                <div id = "intro-container" class = "body-container">
+                    <div class = "unique-container">
+                        <h2>Hello! My name is</h2>
+                        <h2>Colin Chang</h2>
+                        <hr>
+                        <div>Finance | Computer Science | Entrepreneurship</div>
+                        <div>Indiana University Kelley School of Business</div>
+                    </div>
+                </div>
+                <div id = "resume-container" class = "body-container">
+                    <div class = "content-container">
+                        <h2>Resume</h2>
+                        <hr><br><br>
+
+                        <div class = "container">
+                            <h3>Entrepreneur from DECA</h3><br>
+                            DECA is a non-profit organization that prepares members in core business competencies and concepts through competitions and event outings. Central to DECA’s written competitions is the Independent Business Plan, which features a 30-page business plan and a 15 minute presentation given to a panel of judges.<br>
+                            <ul>
+                                <li>Headed the planning and writing for a faux seafood business for the 30-page business plan competition event, winning 3rd in the regional level (2015).</ul>
+                                <li>Engineered a patent-pending pizza box design and a business plan for a recycling public relations campaign used by pizza companies to improve their brand image (2016).</ul>
+                                <li>Secured relationships with game developers from Blizzard to develop an educational game teaching students foreign languages from a cultural perspective (2017).</ul>
+                            </ul>
+                        </div><br><br>
+
+                        <div class = "container">
+                            <h3>Team Leader and Founder of Torch from Q0</h3><br>
+                            Quarter Zero (previously known as Catapult) hosts a 6 week startup incubator competition designed to bring new startups from the ideation phase to incorporation. Held annually in a trip across San Francisco, Chicago, and New York City, it is targeted primarily towards high school entrepreneurs looking to make an impact on the world.<br>
+                            <ul>
+                                <li>Recruited talented software engineers and graphic designers to build a real-time translation device designed to correct speech errors and bridge language barriers.</li>
+                                <li>Generated interest in the startup Torch through testing the product in rapid interviews, gaining more than 100 names in the email list.</li>
+                                <li>Designed and streamlined brands, logos, tech demos, and app wireframes, winning the Most Creative Award.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id = "portfolio-container" class = "body-container">
+                    <div class = "content-container">
+                        <h2>Web Portfolio</h2>
+                        <hr><br><br>
+                        <div class = "container">
+                            <h2>Berkeley Boot Camp 2020</h2>
+                            <h3>January 11 2020 - </h3> <br>
+
+                            <div class = "container">
+                                <a href = "https://ardelato.github.io/Project1Group/">Binge Watch - Project 1</a>
+                                <a href = "https://semicolinc.github.io/Giphy-API-Project/">Giphy Project</a>
+                                <a href = "https://semicolinc.github.io/TriviaGame/">Trivia Game</a>
+                                <a href = "https://semicolinc.github.io/unit-4-game/">Pokemon RPG Game</a>
+                                <a href = "https://semicolinc.github.io/Calculator-Basic/">jQuery Calculator</a>
+                                <a href = "https://semicolinc.github.io/Word-Guess-Game/">Hangman Game</a>
+                                <a href = "https://semicolinc.github.io/Basic-Portfolio/">Initial Webpage</a>
+                                <a href = "https://semicolinc.github.io/RPS-Multiplayer/">RPS Multiplayer (under-construction)</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id = "about-container" class = "body-container">
+                    <div class = "content-container">
+                        <h2>About</h2>
+                        <hr><br><br>
+
+                        <p>
+                            I'm a financial-computer science major at the Kelley School of Business with a love for new startups and emerging technologies. Ever since highschool, I have been working with friends to make an impact on the world. For an example, we developed a startup called Torch, whose goal is to break down language barriers through a real-time translation technology integrated with video chat systems. Now, I've been highly interested to get into the biotechnology industry as I think its the next 'age', beyond the rapid automation of work - improving the natural basic functions of humans.
+                        </p>
+                        <br><br>
+                        <p>
+                            I have been helping out with research studies to gain experience, and focusing on developing key computer science-oriented skills to independently develop my own startups. My experience with leading startups makes me a good candidate for jobs that require creative planning and hard work, so if you have any positions where I may fit, contact me at: <a href = "mailto:colinchang09@gmail.com">colinchang09@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- <div id = "contact-container" class = "body-container">
+                    <div class = "content-container">
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+
+
+</body>

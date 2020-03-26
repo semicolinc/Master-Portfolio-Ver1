@@ -1,0 +1,205 @@
+/* Containers */
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.column-container{
+    display: block;
+}
+.row-container{
+    display: inline;
+}
+
+
+#tool-container{
+    height: 100vh;
+    width: 15vw;
+    float: left;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(30, 31, 36);
+    color: rgb(253, 255, 247);
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5vw;
+}
+
+#vbody-container{
+    width: 85vw;
+    height: 100vh;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#tbody-container{
+    width: 500vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.body-container{
+    overflow: hidden;
+    float: left;
+    height: 100vh;
+    width: 60vw;
+    margin: 0;
+}
+
+.content-container{
+    height: 100em; /*This is arbitrary*/
+    width: 50vw;
+    margin: 2vh 5vw 2vh 5vw;
+}
+.unique-container{
+    position: absolute;
+    bottom: 5vh;
+    right: 0;
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+}
+.unique-container h2{
+    font-size: 6vw;
+}
+.unique-container div{
+    font-size: 2vw;
+}
+
+/* Scrollbar */
+html{
+    /* overflow-y: hidden; */
+}
+html {
+    --thumbBG: rgb(106, 110, 112);
+  }
+  .body-container::-webkit-scrollbar {
+    width: .3vw;
+  }
+  .body-container {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG);
+  }
+  .body-container::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 6px;
+  }
+
+/* Toolbar */
+
+#personal-1{
+    width: 70%;
+    margin: 10vh 15% 10vh 15%;
+}
+#intro-toolbar{
+    cursor: pointer;
+
+}
+#resume-toolbar{
+    cursor: pointer;
+
+}
+#portfolio-toolbar{
+    cursor: pointer;
+
+}
+#about-toolbar{
+    cursor: pointer;
+
+}
+#contact-toolbar{
+    cursor: pointer;
+
+}
+#tool-container hr{
+    width: 50%;
+}
+
+/* Body Containers */
+
+.body-container:hover{
+    overflow-y: auto;
+}
+
+    /* Intro */
+
+#intro-container{
+    background-image: url("../images/background-1.jpg");
+    background-size: 100%;
+    position: relative;
+}
+
+    /* Resume */
+
+#resume-container .content-container{
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+}
+#resume-container .content-container h2{
+    font-size: 4vw;
+}
+#resume-container .content-container hr{
+    border-color: gold;
+    position: absolute;
+    width: 25%;
+    left: 0;
+}
+#resume-container .content-container h3{
+    font-size: 3vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#resume-container .content-container .container{
+    white-space: normal;
+    font-size: 1.5vw;
+}
+
+    /* Web Portfolio */
+
+#portfolio-container .content-container{
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+}
+#portfolio-container .content-container .container .container a{
+    display: block;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 2vw;
+}
+#portfolio-container .content-container h2{
+    font-size: 4vw;
+}
+#portfolio-container .content-container hr{
+    border-color: gold;
+    position: absolute;
+    width: 25%;
+    left: 0;
+}
+#portfolio-container .content-container .container h2{
+    font-size: 3vw;
+    font-family: 'Bebas Neue', cursive;
+}
+#portfolio-container .content-container .container h3{
+    font-size: 1.5vw;
+}
+
+    /* About */
+
+#about-container .content-container{
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+}
+#about-container .content-container h2{
+    font-size: 4vw;
+}
+#about-container .content-container hr{
+    border-color: gold;
+    position: absolute;
+    width: 25%;
+    left: 0;
+}
+
+#about-container .content-container p{
+    font-size: 2vw;
+    white-space: normal;
+}
